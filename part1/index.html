@@ -7,7 +7,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
-    <link href="/stylesheets/styles-22101672.css" rel="stylesheet" />
+    <link href="/stylesheets/styles-d1f88b59.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/xcode.min.css">
 
@@ -24,13 +24,15 @@
 
   </head>
   <body>
-    <div class="browser-support-warning" id="browser-support-warning" style="display: none;">
+    <div class="main-wrapper">
+      <div class="header-wrapper">
+        <div class="browser-support-warning" id="browser-support-warning" style="display: none;">
   Kaikki tämän materiaalin osat eivät välttämättä tuo nykyistä selaintasi. Voisitko harkita vaihtamista <a href="https://www.google.com/chrome/browser/desktop/" target="_blank">Chrome</a> tai <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">Firefox</a> selaimeen?
   <span class="browser-support-warning__close">Selvä!</span>
 </div>
 
 
-    <nav class="navbar navbar-light bg-white">
+        <nav class="navbar navbar-light bg-white">
   <a class="navbar-brand" href="http://mooc.fi" alt="MOOC" target="_blank">
     <span class="icon-mooc"></span>
   </a>
@@ -64,9 +66,11 @@
   </div>
 </nav>
 
+      </div>
 
-    <div class="container material" id="material">
-        <div class="exercise-list">
+      <div class="content-wrapper">
+        <div class="container material" id="material">
+            <div class="exercise-list">
   <div class="exercise-list__header">
     Tehtävät
   </div>
@@ -80,13 +84,31 @@
 </div>
 
 
-      <h1>Kysely: Opiskeluun liittyvät toimintatavat</h1>
+          
+<div class="hint">
+  <div class="hint__header">
+    <i class="fa fa-info-circle hint__icon"></i>Aloituskysely
+  </div>
 
-<p>
-  Kyselyn lataaminen saattaa kestää hetken. Joudut kirjautumaan sisään vastaaksesi kyselyyn. Kirjaudu sisään painamalla yläpalkin "Kirjaudu sisään"-painiketta.
-</p>
+  <div class="hint__body">
+    
+  <p>
+    Kurssiin kuuluu muutama kysely, joiden tavoitteena on parantaa kurssia. Vastaa ensimmäiseen kyselyyn osoitteessa <a href="https://elomake.helsinki.fi/lomakkeet/76573/lomake.html"  target="_blank">https://elomake.helsinki.fi/lomakkeet/76573/lomake.html</a>.
+  </p>
 
-<div class="quiznator-plugin" data-quiz-id="5877687bd095c40004e4b185"></div>
+  <p>
+    Käy vastaamassa ensin kyselyyn ja ruksaa sen jälkeen allaoleva tekstikenttä. Jos allaolevan tekstikentän ruksaaminen ei onnistu, varmista että olet kirjautunut tälle sivulle. Kirjautuminen onnistuu sivun oikeasta ylälaidasta.
+  </p>
+
+  <div class="quiznator-plugin" data-quiz-id="587a95326b66090004e96c06"></div>
+
+
+
+  </div>
+</div>
+
+
+
 
 
 <h1 class="material-heading">
@@ -205,7 +227,7 @@
   </p>
 
   <p>
-    Kyseiseen kansioon voi mennä myös ilman NetBeansia. Huomaat, että projektin kansiossa on useita tiedostoja. Lähdekoodit, joita muokkaamme ja luomme tällä kurssilla sijaitsevat aina kansiossa <em>src</em> eli sources. 
+    Kyseiseen kansioon voi mennä myös ilman NetBeansia. Huomaat, että projektin kansiossa on useita tiedostoja. Lähdekoodit, joita muokkaamme ja luomme tällä kurssilla sijaitsevat aina kansiossa <em>src</em> eli sources.
   </p>
 
   <p>
@@ -534,11 +556,7 @@ Liukulukumuuttuja: 3.141592653
     Java-ohjelmien suorituksen etenemistä voi tarkastella osoitteessa <a href="http://www.pythontutor.com/java.html" target="_blank">http://www.pythontutor.com/java.html</a> olevan palvelun avulla. Alla on liitettynä edellinen esimerkki visualisoituna. Painamalla nappia "Forward" ohjelman suoritus etenee.
   </p>
 
-  <p>TODO: ENABLE</p>
-
-  <!-- -
   <iframe width="800" height="500" frameborder="0" src="http://pythontutor.com/iframe-embed.html#code=public%20class%20YourClassNameHere%20%7B%0A%20%20public%20static%20void%20main(String%5B%5D%20args%29%20%7B%0A%20%20%20%20String%20teksti%20%3D%20%22sis%C3%A4lt%C3%A4%C3%A4%20teksti%C3%A4%22%3B%0A%20%20%20%20int%20kokonaisluku%20%3D%20123%3B%0A%20%20%20%20double%20liukuluku%20%3D%203.141592653%3B%0A%0A%20%20%20%20System.out.println(%22Tekstimuuttuja%3A%20%22%20%2B%20teksti%29%3B%0A%20%20%20%20System.out.println(%22Kokonaislukumuuttuja%3A%20%22%20%2B%20kokonaisluku%29%3B%0A%20%20%20%20System.out.println(%22Liukulukumuuttuja%3A%20%22%20%2B%20liukuluku%29%3B%0A%20%20%7D%0A%7D&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=false&origin=opt-frontend.js&py=java&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
-  -->
 
 
   </div>
@@ -882,7 +900,7 @@ System.out.println(2 + toka - eka - toka); // tulostaa 0
 
 
 <p>
-  Lauseke ei myöskään muuta muuttujassa olevaa arvoa, ellei lausekkeen lopputulosta aseteta muuttujan arvoksi tai anneta parametrina esimerkiksi tulostukselle. 
+  Lauseke ei myöskään muuta muuttujassa olevaa arvoa, ellei lausekkeen lopputulosta aseteta muuttujan arvoksi tai anneta parametrina esimerkiksi tulostukselle.
 </p>
 
 <pre class="sh_java code-highlight"><code>  int eka = 2;
@@ -1304,11 +1322,7 @@ rivi 9: tulostetaan arvo 28
 
 <p>Alla edellinen ohjelma askeleittain visualisoituna. Käytössä oleva askeleittainen visualisointi käsittelee ohjelmakoodia riveittäin -- pohdi askeleiden kohdalla miten ohjelma päätyy sen tulostamaan lopputulokseen.</p>
 
-<p>TODO: ENABLE</p>
-
-<!--
 <iframe width="800" height="500" frameborder="0" src="http://pythontutor.com/iframe-embed.html#code=public%20class%20LaskentaAskeleittain%20%7B%0A%20%20public%20static%20void%20main(String%5B%5D%20args%29%20%7B%0A%20%20%20%20int%20eka%20%3D%20(1%20%2B%201%29%3B%0A%20%20%20%20int%20toka%20%3D%20eka%20%2B%203%20*%20(2%20%2B%205%29%3B%0A%0A%20%20%20%20eka%20%3D%205%3B%0A%0A%20%20%20%20int%20kolmas%20%3D%20eka%20%2B%20toka%3B%0A%20%20%20%20System.out.println(eka%29%3B%0A%20%20%20%20System.out.println(toka%29%3B%0A%20%20%20%20System.out.println(kolmas%29%3B%0A%20%20%7D%0A%7D&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=false&origin=opt-frontend.js&py=java&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
--->
 
 
 <div class="quiznator-plugin" data-quiz-id="5878a3ee79db890004df0d1f"></div>
@@ -1332,7 +1346,7 @@ rivi 9: tulostetaan arvo 28
   <p>
     Tässä tehtävässä harjoittelet ensimmäistä kertaa tuntemattoman ohjelman muokkaamista. Vaikka suurin osa ohjelmasta tuntuu kryptiseltä, etkä tunne lähdekoodissa käytettyjä sanoja lainkaan, huomaat sieltä todennäköisesti myös tuttuja asioita.
   </p>
-  
+
   <p>
     Tehtäväpohjaan on toteutettuna graafinen (eli ohjelma avautuu ikkunassa) jakolaskin. Ohjelmassa on kuitenkin pientä häikkää, kuten alla olevasta esimerkistä huomaat.
   </p>
@@ -1982,12 +1996,12 @@ if (luku == 1) {
 </p>
 
 <p>
-  Ylläolevan ohjelman askeleittainen visualisointi TODO ENABLE:
+  Ylläolevan ohjelman askeleittainen visualisointi:
 </p>
 
-<!--
+
 <iframe width="800" height="500" frameborder="0" src="http://pythontutor.com/iframe-embed.html#code=public%20class%20ElseIfEsimerkki%20%7B%0A%20%20public%20static%20void%20main(String%5B%5D%20args%29%20%7B%0A%20%20%20%20int%20luku%20%3D%203%3B%0A%0A%20%20%20%20if%20(luku%20%3D%3D%201%29%20%7B%0A%20%20%20%20%20%20System.out.println(%22Luku%20on%20yksi%22%29%3B%0A%20%20%20%20%7D%20else%20if%20(luku%20%3D%3D%202%29%20%7B%0A%20%20%20%20%20%20System.out.println(%22Lukuna%20on%20kaksi%22%29%3B%0A%20%20%20%20%7D%20else%20if%20(luku%20%3D%3D%203%29%20%7B%0A%20%20%20%20%20%20System.out.println(%22Kolme%20lienee%20lukuna!%22%29%3B%0A%20%20%20%20%7D%20else%20%7B%0A%20%20%20%20%20%20System.out.println(%22Jotain%20muuta!%22%29%3B%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=false&origin=opt-frontend.js&py=java&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
--->
+
 
 <div class="exercise">
   <div class="exercise__header">
@@ -3071,19 +3085,30 @@ Vuosi on karkausvuosi.
 </div>
 
 
-<h1 class="material-heading">
-    Yhteenveto
-
-</h1>
 
 <p>
-  TODO
+  Ensimmäinen osio päättyy tähän. Takanasi on jo ainakin 30 erilaista ohjelmaa -- jos osa on jäänyt epäselviksi, kannattaa niihin palata myöhemmin kurssilla. 
 </p>
 
 
-<div class="quiznator-plugin" data-quiz-id="57d8f3f9e6fc9b00030b32a3"></div>
+<div class="quiznator-plugin" data-quiz-id="587a99b46b66090004e96c08"></div>
 
 
+
+
+
+        </div>
+      </div>
+
+      <div class="footer-wrapper">
+        <footer class="footer">
+    Tämä materiaali on lisensoitu Creative Commons BY-NC-SA-lisenssillä
+    <a href="https://github.com/2017-ohjelmointi/2017-ohjelmointi" class="footer__github-link" target="_blank">
+      <i class="fa fa-github"></i>
+    </a>
+</footer>
+
+      </div>
     </div>
 
     <div class="modal fade" id="tmc-login-modal" tabindex="-1" role="dialog">
@@ -3183,7 +3208,7 @@ Vuosi on karkausvuosi.
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-    <script src="/javascripts/scripts-72dab2a5.js"></script>
+    <script src="/javascripts/scripts-2f2cdb1c.js"></script>
 
     <script src="https://use.fontawesome.com/ed2f73836b.js"></script>
 
