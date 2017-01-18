@@ -7,7 +7,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
-    <link href="/stylesheets/styles-d1f88b59.css" rel="stylesheet" />
+    <link href="/stylesheets/styles-d5e31a44.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/xcode.min.css">
 
@@ -110,7 +110,6 @@
 
 
 
-
 <h1 class="material-heading">
     Ohjelma ja lähdekoodi
 
@@ -201,7 +200,7 @@
     Rivi "// Kirjoita ohjelmasi tähän alle" on <em>kommenttirivi</em>, jota tietokone ei ota huomioon ohjelmaa suoritettaessa. Lisää kommenttirivin alle lause, joka tulostaa merkkijonon "Ada Lovelace" ja suorita ohjelma. Ohjelman tulostuksen tulee olla seuraavanlainen:
   </p>
 
-<pre>Ada Lovelace
+<pre class="sample-output">Ada Lovelace
 </pre>
 
   <p>
@@ -309,7 +308,7 @@
     Tee ohjelma, jonka tulostus on seuraava:
   </p>
 
-<pre>Hei Maailma!
+<pre class="sample-output">Hei Maailma!
 (Ja Mualima!)
 </pre>
 
@@ -340,7 +339,7 @@
 
 <p>Ylläoleva lause tulostaa seuraavaa:</p>
 
-<pre>Ensimmäinen
+<pre class="sample-output">Ensimmäinen
 Toinen
 Kolmas
 </pre>
@@ -370,7 +369,7 @@ Kolmas
 <pre class="sh_java code-highlight"><code>System.out.print("Hei "); System.out.print("maailma"); System.out.print("!\n");
 </code></pre>
 
-<pre>Hei maailma!
+<pre class="sample-output">Hei maailma!
 </pre>
 
 <p>
@@ -459,7 +458,7 @@ System.out.println("public static ... sisällä -- kahdeksan merkin sisennys -- 
     Tee ohjelma, jonka tulostus on seuraava:
   </p>
 
-<pre>    *
+<pre class="sample-output">    *
    ***
   *****
  *******
@@ -539,7 +538,7 @@ System.out.println("Liukulukumuuttuja: " + liukuluku);
   Tulostus:
 </p>
 
-<pre>Tekstimuuttuja: sisältää tekstiä
+<pre class="sample-output">Tekstimuuttuja: sisältää tekstiä
 Kokonaislukumuuttuja: 123
 Liukulukumuuttuja: 3.141592653
 </pre>
@@ -578,7 +577,7 @@ Liukulukumuuttuja: 3.141592653
       
   <p>Tehtäväpohja sisältää ohjelman, joka tulostaa seuraavaa.</p>
 
-<pre>Kanoja:
+<pre class="sample-output">Kanoja:
 3
 Pekonia (kg):
 5.5
@@ -593,7 +592,7 @@ Ei ole!
 
   <p>Muuta ohjelmaa annetuista kohdista niin että tuloste on:</p>
 
-<pre>Kanoja:
+<pre class="sample-output">Kanoja:
 9000
 Pekonia (kg):
 0.1
@@ -634,7 +633,7 @@ System.out.println("Muuttujan arvo on " + luku);
   Tulostus:
 </p>
 
-<pre>Muuttujan arvo on 123
+<pre class="sample-output">Muuttujan arvo on 123
 Muuttujan arvo on 42
 </pre>
 
@@ -848,7 +847,7 @@ System.out.println(laskuSuluitta); // tulostaa 13
 
   <p>Ohjelman tulostus on seuraava:</p>
 
-<pre>Vuodessa on X sekuntia.
+<pre class="sample-output">Vuodessa on X sekuntia.
 </pre>
 
   <p>X:n kohdalle tulee ohjelmasi laskema tulos. Huom! Hyödynnä tässä tehtävässä muuttujia :)</p>
@@ -941,7 +940,7 @@ String lause = tervehdys + nimi + hyvastely;
 System.out.println(lause);
 </code></pre>
 
-<pre>Hei Matti, ja näkemiin!
+<pre class="sample-output">Hei Matti, ja näkemiin!
 </pre>
 
 <p>
@@ -952,7 +951,7 @@ System.out.println(lause);
 System.out.println(2 + " &lt;-- tuossa on kokonaisluku");
 </code></pre>
 
-<pre>tuossa on kokonaisluku --&gt; 2
+<pre class="sample-output">tuossa on kokonaisluku --&gt; 2
 2 &lt;-- tuossa on kokonaisluku
 </pre>
 
@@ -964,7 +963,7 @@ System.out.println(2 + " &lt;-- tuossa on kokonaisluku");
 System.out.println("Mutta! kaksikymmentäkaksi: " + 2 + 2);
 </code></pre>
 
-<pre>Neljä: 4
+<pre class="sample-output">Neljä: 4
 Mutta! kaksikymmentäkaksi: 22
 </pre>
 
@@ -986,7 +985,7 @@ System.out.println("y on " + y + " ja z on " + z);
   Tulostus:
 </p>
 
-<pre>muuttujan x arvo on: 10
+<pre class="sample-output">muuttujan x arvo on: 10
 y on 5 ja z on 6
 </pre>
 
@@ -1013,14 +1012,14 @@ y on 5 ja z on 6
     Esimerkiksi jos muuttujissa on luvut 5 ja 4, ohjelman tulostus on seuraava:
   </p>
 
-<pre>5 + 4 = 9
+<pre class="sample-output">5 + 4 = 9
 </pre>
 
   <p>
     Jos taas muuttujissa on luvut 73457 ja 12888, ohjelman tulostus on seuraava:
   </p>
 
-<pre>73457 + 12888 = 86345
+<pre class="sample-output">73457 + 12888 = 86345
 </pre>
 
 
@@ -1051,14 +1050,14 @@ y on 5 ja z on 6
     Esimerkiksi jos muuttujissa on luvut 2 ja 8, ohjelman tulostus on seuraava:
   </p>
 
-<pre>2 * 8 = 16
+<pre class="sample-output">2 * 8 = 16
 </pre>
 
   <p>
     Jos taas muuttujissa on luvut 277 ja 111, ohjelman tulostus on seuraava:
   </p>
 
-<pre>277 * 111 = 30747
+<pre class="sample-output">277 * 111 = 30747
 </pre>
 
   <p>
@@ -1161,7 +1160,7 @@ System.out.println(tulos);
     Tehtäväpohjassa on ohjelma, jossa on kolme muuttujaa. Ohjelman tulostus on tällä hetkellä seuraava.
   </p>
 
-<pre>eka: 3
+<pre class="sample-output">eka: 3
 toka: 5
 kolmas: 5
 </pre>
@@ -1170,7 +1169,7 @@ kolmas: 5
     Muokkaa ohjelmaa siten, että ohjelma tulostaa myös muuttujien keskiarvon.
   </p>
 
-<pre>eka: 3
+<pre class="sample-output">eka: 3
 toka: 5
 kolmas: 5
 keskiarvo: 4.333333333333333
@@ -1180,7 +1179,7 @@ keskiarvo: 4.333333333333333
     Huom! Jos muuttujien arvoja muutetaan, tulee myös tulostuksen muuttua.
   </p>
 
-<pre>eka: 5
+<pre class="sample-output">eka: 5
 toka: 7
 kolmas: 4
 keskiarvo: 5.333333333333333
@@ -1214,12 +1213,12 @@ keskiarvo: 5.333333333333333
       
   <p>Tehtäväpohjassa on ohjelma, jossa on kaksi muuttujaa. Ohjelman tulostus on tällä hetkellä seuraava.</p>
 
-<pre>1 + 3 = 4
+<pre class="sample-output">1 + 3 = 4
 </pre>
 
   <p>Muokkaa ohjelmaa siten, että ohjelma laskee myös lukujen erotuksen, tulon, ja jakolaskun.</p>
 
-<pre>1 + 3 = 4
+<pre class="sample-output">1 + 3 = 4
 1 - 3 = -2
 1 * 3 = 3
 1 / 3 = 0.33333
@@ -1227,7 +1226,7 @@ keskiarvo: 5.333333333333333
 
   <p>Huom! Jos muuttujien arvoja muutetaan, tulee myös tulostuksen muuttua.</p>
 
-<pre>5 + 3 = 8
+<pre class="sample-output">5 + 3 = 8
 5 - 3 = 2
 5 * 3 = 15
 5 / 3 = 1.66666
@@ -1277,7 +1276,7 @@ rivi 9: System.out.println(kolmas);
 
 <p>Alla on kirjoitettu ylläolevan ohjelmakoodin suoritus auki.</p>
 
-<pre>rivi 1: luodaan muuttuja eka
+<pre class="sample-output">rivi 1: luodaan muuttuja eka
 rivi 1: kopioidaan muuttujan eka arvoksi laskun 1 + 1 tulos
 rivi 1: muuttujan eka arvo on 2
 
@@ -1414,7 +1413,7 @@ String nimi = lukija.nextLine(); // Luetaan käyttäjältä rivi tekstiä ja
 System.out.println("Hei " + nimi);
 </code></pre>
 
-<pre>Mikä on nimesi? <font color="red">Venla</font>
+<pre class="sample-output">Mikä on nimesi? <font color="red">Venla</font>
 Hei Venla
 </pre>
 
@@ -1469,7 +1468,7 @@ public class Tervehdys {
     Tee ohjelma joka lukee käyttäjältä merkkijonon ja tulostaa merkkijonon kolmesti.
   </p>
 
-<pre>Mikä tulostetaan? <font color="red">kukka</font>
+<pre class="sample-output">Mikä tulostetaan? <font color="red">kukka</font>
 
 kukkakukkakukka
 </pre>
@@ -1528,7 +1527,7 @@ public class NimiJaIkaTervehdys {
 
 <p>Tulostus esimerkiksi:</p>
 
-<pre>Nimesi: <font color="red">Nelli</font>
+<pre class="sample-output">Nimesi: <font color="red">Nelli</font>
 Kuinka vanha olet: <font color="red">4</font>
 Nimesi on siis Nelli ja ikäsi 4, hauska tutustua.
 </pre>
@@ -1588,7 +1587,7 @@ public class OhjelmanNimi {
     Tee ohjelma, joka kysyy käyttäjältä kaksi kokonaislukua ja tulostaa niiden summan.
   </p>
 
-<pre>Anna ensimmäinen luku: <font color="red">6</font>
+<pre class="sample-output">Anna ensimmäinen luku: <font color="red">6</font>
 Anna toinen luku: <font color="red">2</font>
 
 Lukujen summa: 8
@@ -1620,7 +1619,7 @@ Lukujen summa: 8
     Tee ohjelma, joka kysyy käyttäjältä kaksi kokonaislukua ja tulostaa niiden osamäärän. Varmista, että <code>3 / 2 = 1.5</code>. Jos desimaaliosa katoaa, lue uudelleen materiaalin kohta 3.3. Jakolasku.
   </p>
 
-<pre>Anna ensimmäinen luku: <font color="red">3</font>
+<pre class="sample-output">Anna ensimmäinen luku: <font color="red">3</font>
 Anna toinen luku: <font color="red">2</font>
 
 Jakolasku: 3 / 2 = 1.5
@@ -1649,7 +1648,7 @@ Jakolasku: 3 / 2 = 1.5
     Ympyrän kehän pituus lasketaan kaavalla <code>2 * pii * säde</code>. Tee ohjelma, joka kysyy käyttäjältä ympyrän säteen ja laskee sen perusteella ympyrän kehän pituuden. Javasta löytyy valmis piin arvo, saat sen kirjoittamalla <code>Math.PI</code> laskutoimitukseen.
   </p>
 
-<pre>Anna ympyrän säde: <font color="red">20</font>
+<pre class="sample-output">Anna ympyrän säde: <font color="red">20</font>
 
 Ympyrän kehä: 125.66370614359172
 </pre>
@@ -1676,7 +1675,7 @@ Ympyrän kehä: 125.66370614359172
     Tee ohjelma, joka kysyy kahden henkilön nimet ja iät.  Tämän jälkeen ohjelma tulostaa henkilöiden nimet sekä heidän ikien summan.
   </p>
 
-<pre>Kerro nimi: <font color="red">Charles Babbage</font>
+<pre class="sample-output">Kerro nimi: <font color="red">Charles Babbage</font>
 Kerro ikä: <font color="red">226</font>
 
 Kerro nimi: <font color="red">Ada Lovelace</font>
@@ -1785,10 +1784,10 @@ luku = 9;
       
   <p>Tee ohjelma, joka kysyy käyttäjältä kokonaisluvun ja tulostaa merkkijonon "Ylinopeussakko!" jos luku on suurempi kuin 120.</p>
 
-<pre>Kerro nopeus: <font color="red">15</font>
+<pre class="sample-output">Kerro nopeus: <font color="red">15</font>
 </pre>
 
-<pre>Kerro nopeus: <font color="red">135</font>
+<pre class="sample-output">Kerro nopeus: <font color="red">135</font>
 
 Ylinopeussakko!
 </pre>
@@ -1847,10 +1846,10 @@ if (luku &gt;= 1000) {
       
   <p>Tee ohjelma, joka kysyy käyttäjältä kokonaisluvun ja tulostaa merkkijonon "Orwell" jos luku on täsmälleen 1984.</p>
 
-<pre>Anna luku: <font color="red">1983</font>
+<pre class="sample-output">Anna luku: <font color="red">1983</font>
 </pre>
 
-<pre>Anna luku: <font color="red">1984</font>
+<pre class="sample-output">Anna luku: <font color="red">1984</font>
 
 Orwell
 </pre>
@@ -1888,7 +1887,7 @@ if (luku &gt; 5) {
 }
 </code></pre>
 
-<pre>  Lukusi on viisi tai alle!
+<pre class="sample-output">  Lukusi on viisi tai alle!
 </pre>
 
 <p>
@@ -1918,12 +1917,12 @@ if (luku &gt; 5) {
     Tee ohjelma, joka kysyy käyttäjältä kokonaisluvun ja kertoo, onko se positiivinen (eli suurempi kuin nolla) vai ei.
   </p>
 
-<pre>Anna luku: <font color="red">5</font>
+<pre class="sample-output">Anna luku: <font color="red">5</font>
 
 Luku on positiivinen.
 </pre>
 
-<pre>Anna luku: <font color="red">-2</font>
+<pre class="sample-output">Anna luku: <font color="red">-2</font>
 
 Luku ei ole positiivinen.
 </pre>
@@ -1950,12 +1949,12 @@ Luku ei ole positiivinen.
 
   <p>Tee ohjelma, joka kysyy käyttäjän ikää ja kertoo, onko tämä täysi-ikäinen (eli 18-vuotias tai vanhempi).</p>
 
-<pre>Kuinka vanha olet? <font color="red">12</font>
+<pre class="sample-output">Kuinka vanha olet? <font color="red">12</font>
 
 Et ole täysi-ikäinen!
 </pre>
 
-<pre>Kuinka vanha olet? <font color="red">32</font>
+<pre class="sample-output">Kuinka vanha olet? <font color="red">32</font>
 
 Olet täysi-ikäinen!
 </pre>
@@ -1988,7 +1987,7 @@ if (luku == 1) {
 }
 </code></pre>
 
-<pre>Kolme lienee lukuna!
+<pre class="sample-output">Kolme lienee lukuna!
 </pre>
 
 
@@ -2024,19 +2023,19 @@ if (luku == 1) {
     Esimerkkitulostuksia:
   </p>
 
-<pre>Anna ensimmäinen luku: <font color="red">5</font>
+<pre class="sample-output">Anna ensimmäinen luku: <font color="red">5</font>
 Anna toinen luku: <font color="red">3</font>
 
 Suurempi luku: 5
 </pre>
 
-<pre>Anna ensimmäinen luku: <font color="red">5</font>
+<pre class="sample-output">Anna ensimmäinen luku: <font color="red">5</font>
 Anna toinen luku: <font color="red">8</font>
 
 Suurempi luku: 8
 </pre>
 
-<pre>Anna ensimmäinen luku: <font color="red">5</font>
+<pre class="sample-output">Anna ensimmäinen luku: <font color="red">5</font>
 Anna toinen luku: <font color="red">5</font>
 
 Luvut ovat yhtä suuret!
@@ -2071,7 +2070,7 @@ if (luku == 0) {
 }
 </code></pre>
 
-<pre>Luku on suurempi kuin nolla.
+<pre class="sample-output">Luku on suurempi kuin nolla.
 </pre>
 
 <p>
@@ -2139,23 +2138,23 @@ if (luku == 0) {
     Esimerkkitulostuksia:
   </p>
 
-<pre>Anna pisteet [0-100]: <font color="red">37</font>
+<pre class="sample-output">Anna pisteet [0-100]: <font color="red">37</font>
 
 Arvosana: hylätty
 </pre>
 
-<pre>Anna pisteet [0-100]: <font color="red">76</font>
+<pre class="sample-output">Anna pisteet [0-100]: <font color="red">76</font>
 
 Arvosana: 3
 </pre>
 
-<pre>Anna pisteet [0-100]: <font color="red">95</font>
+<pre class="sample-output">Anna pisteet [0-100]: <font color="red">95</font>
 
 Arvosana: 5
 </pre>
 
 
-<pre>Anna pisteet [0-100]: <font color="red">-3</font>
+<pre class="sample-output">Anna pisteet [0-100]: <font color="red">-3</font>
 
 Arvosana: mahdotonta!
 </pre>
@@ -2239,7 +2238,7 @@ if (luku &gt; 4 &amp;&amp; luku &lt; 11) {
 }
 </code></pre>
 
-<pre>Onkohan luku väliltä 5-10:
+<pre class="sample-output">Onkohan luku väliltä 5-10:
 On! :)
 </pre>
 
@@ -2257,7 +2256,7 @@ if (luku &lt; 0 || luku &gt; 100) {
 }
 </code></pre>
 
-<pre>Onkohan luku pienempi kuin 0 tai suurempi kuin 100
+<pre class="sample-output">Onkohan luku pienempi kuin 0 tai suurempi kuin 100
 On! :)
 </pre>
 
@@ -2279,19 +2278,19 @@ On! :)
     Tee ohjelma, joka kysyy käyttäjän iän ja tarkistaa, että se on mahdollinen (ainakin 0 ja korkeintaan 120).
   </p>
 
-<pre>Kuinka vanha olet? <font color="red">10</font>
+<pre class="sample-output">Kuinka vanha olet? <font color="red">10</font>
 OK
 </pre>
 
-<pre>Kuinka vanha olet? <font color="red">55</font>
+<pre class="sample-output">Kuinka vanha olet? <font color="red">55</font>
 OK
 </pre>
 
-<pre>Kuinka vanha olet? <font color="red">-3</font>
+<pre class="sample-output">Kuinka vanha olet? <font color="red">-3</font>
 Mahdotonta!
 </pre>
 
-<pre>Kuinka vanha olet? <font color="red">150</font>
+<pre class="sample-output">Kuinka vanha olet? <font color="red">150</font>
 Mahdotonta!
 </pre>
 
@@ -2317,7 +2316,7 @@ Mahdotonta!
 System.out.println("Totuusarvomuuttujan arvo on " + onkoTotta);
 </code></pre>
 
-<pre>Totuusarvomuuttujan arvo on true
+<pre class="sample-output">Totuusarvomuuttujan arvo on true
 </pre>
 
 <p>
@@ -2331,7 +2330,7 @@ if (onkoTotta) {
 }
 </code></pre>
 
-<pre>Aika vinhaa!
+<pre class="sample-output">Aika vinhaa!
 </pre>
 
 
@@ -2365,7 +2364,7 @@ if (onkoPienempi) {
 </p>
 
 
-<pre>1 on pienempi kuin 3!
+<pre class="sample-output">1 on pienempi kuin 3!
 </pre>
 
 
@@ -2441,11 +2440,11 @@ if (luku % 400 == 0) {
       
   <p>Tee ohjelma, joka kysyy käyttäjältä luvun ja ilmoittaa, onko syötetty luku parillinen vai pariton.</p>
 
-<pre>Anna luku: <font color="red">2</font>
+<pre class="sample-output">Anna luku: <font color="red">2</font>
 Luku 2 on parillinen.
 </pre>
 
-<pre>Anna luku: <font color="red">7</font>
+<pre class="sample-output">Anna luku: <font color="red">7</font>
 Luku 7 on pariton.
 </pre>
 
@@ -2476,7 +2475,7 @@ if ((luku &gt; 0 &amp;&amp; luku &lt; 10) || luku &gt; 100) {
 }
 </code></pre>
 
-<pre>  luku oli 0 tai pienempi tai väliltä 10-99
+<pre class="sample-output">  luku oli 0 tai pienempi tai väliltä 10-99
 </pre>
 
 <p>
@@ -2547,7 +2546,7 @@ public class MerkkijonojenVertailu {
 </code></pre>
 
 
-<pre>  Syötä kaksi merkkijonoa.
+<pre class="sample-output">  Syötä kaksi merkkijonoa.
   <font color="red">merkkijono</font>
   <font color="red">merkkijono</font>
   Syötetyt merkkijonot eivät olleet samat!
@@ -2605,7 +2604,7 @@ if (!(merkkijono.equals("maito"))) {  // tosi jos ehto merkkijono.equals("maito"
 }
 </code></pre>
 
-<pre>ei ollut!
+<pre class="sample-output">ei ollut!
 </pre>
 
 
@@ -2623,7 +2622,7 @@ if (!onkoSuurempi) {
 }
 </code></pre>
 
-<pre>1 ei ole suurempi kuin 3
+<pre class="sample-output">1 ei ole suurempi kuin 3
 </pre>
 
 
@@ -2696,11 +2695,11 @@ public class MerkkijonojenVertailu {
     Tee ohjelma, joka pyytää käyttäjää kirjoittamaan merkkijonon. Jos käyttäjä kirjoittaa merkkijonon "totta", tulostetaan merkkijono "Oikein meni!", muulloin tulostetaan merkkijono "Koitappa uudelleen!".
   </p>
 
-<pre>Kirjoita merkkijono: <font color="red">totta</font>
+<pre class="sample-output">Kirjoita merkkijono: <font color="red">totta</font>
 Oikein meni!
 </pre>
 
-<pre>Kirjoita merkkijono: <font color="red">tottapa</font>
+<pre class="sample-output">Kirjoita merkkijono: <font color="red">tottapa</font>
 Koitappa uudelleen!
 </pre>
 
@@ -2746,17 +2745,17 @@ Koitappa uudelleen!
     Ohjelma näyttää käyttäjälle henkilökohtaisen viestin tai ilmoittaa, jos tunnus tai salasana on väärin.
   </p>
 
-<pre>Anna tunnus: <font color="red">aleksi</font>
+<pre class="sample-output">Anna tunnus: <font color="red">aleksi</font>
 Anna salasana: <font color="red">tappara</font>
 Hei aleksi, olet kirjautunut järjestelmään
 </pre>
 
-<pre>Anna tunnus: <font color="red">elina</font>
+<pre class="sample-output">Anna tunnus: <font color="red">elina</font>
 Anna salasana: <font color="red">kissa</font>
 Hei elina, olet kirjautunut järjestelmään
 </pre>
 
-<pre>Anna tunnus: <font color="red">aleksi</font>
+<pre class="sample-output">Anna tunnus: <font color="red">aleksi</font>
 Anna salasana: <font color="red">jokerit</font>
 Virheellinen tunnus tai salasana!
 </pre>
@@ -2830,7 +2829,7 @@ Virheellinen tunnus tai salasana!
   Kun ohjelmassa tapahtuu virhe, se tyypillisesti tulostaa ns. stack tracen, eli niiden metodikutsujen listan, joiden seurauksena virhetilanne syntyi. Stack trace voi näyttää esimerkiksi seuraavalta:
 </p>
 
-<pre>Exception in thread "main" ...
+<pre class="sample-output">Exception in thread "main" ...
         at Ohjelma.main(Ohjelma.java:15)
 </pre>
 
@@ -2838,7 +2837,7 @@ Virheellinen tunnus tai salasana!
   Listan alussa kerrotaan minkälainen virhe tapahtui (tässä ...), ja seuraavalla rivillä kerrotaan missä virhe tapahtui. Rivi "at Ohjelma.main(Ohjelma.java:15)" sanoo, että virhe tapahtui Ohjelma.java-tiedoston rivillä 15.
 </p>
 
-<pre>        at Ohjelma.main(Ohjelma.java:15)
+<pre class="sample-output">        at Ohjelma.main(Ohjelma.java:15)
 </pre>
 
 
@@ -2976,19 +2975,19 @@ if (luku % 3 == 0 && luku % 5 == 0) {
     Tee ohjelma, joka lukee käyttäjältä vuosiluvun, ja tarkistaa, onko vuosi karkausvuosi.
   </p>
 
-<pre>Anna vuosi: <font color="red">2011</font>
+<pre class="sample-output">Anna vuosi: <font color="red">2011</font>
 Vuosi ei ole karkausvuosi.
 </pre>
 
-<pre>Anna vuosi: <font color="red">2012</font>
+<pre class="sample-output">Anna vuosi: <font color="red">2012</font>
 Vuosi on karkausvuosi.
 </pre>
 
-<pre>Anna vuosi: <font color="red">1800</font>
+<pre class="sample-output">Anna vuosi: <font color="red">1800</font>
 Vuosi ei ole karkausvuosi.
 </pre>
 
-<pre>Anna vuosi: <font color="red">2000</font>
+<pre class="sample-output">Anna vuosi: <font color="red">2000</font>
 Vuosi on karkausvuosi.
 </pre>
 
@@ -3016,28 +3015,28 @@ Vuosi on karkausvuosi.
     Toteuta laskin, joka tarjoaa plus, miinus, kerto sekä jakolaskutoiminnallisuuden. Alla on kuvattu laskimelta toivottu toiminallisuus.
   </p>
 
-<pre>    Anna ensimmäinen luku: <font color="red">7</font>
+<pre class="sample-output">    Anna ensimmäinen luku: <font color="red">7</font>
     Anna toinen luku: <font color="red">1</font>
     Anna operaatio: <font color="red">+</font>
 
     7 + 1 = 8
 </pre>
 
-<pre>    Anna ensimmäinen luku: <font color="red">5</font>
+<pre class="sample-output">    Anna ensimmäinen luku: <font color="red">5</font>
     Anna toinen luku: <font color="red">3</font>
     Anna operaatio: <font color="red">-</font>
 
     5 - 3 = 2
 </pre>
 
-<pre>    Anna ensimmäinen luku: <font color="red">22</font>
+<pre class="sample-output">    Anna ensimmäinen luku: <font color="red">22</font>
     Anna toinen luku: <font color="red">3</font>
     Anna operaatio: <font color="red">*</font>
 
     22 * 3 = 66
 </pre>
 
-<pre>    Anna ensimmäinen luku: <font color="red">17</font>
+<pre class="sample-output">    Anna ensimmäinen luku: <font color="red">17</font>
     Anna toinen luku: <font color="red">3</font>
     Anna operaatio: <font color="red">/</font>
 
