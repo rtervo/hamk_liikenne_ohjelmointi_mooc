@@ -117,7 +117,7 @@
   </p>
 
   <p>
-    Huom! Älä kuitenkaan aloita kokeen tekemistä ennenkuin olet kerrannut osat 1 ja 2, ja olet varma, että sinulla on aikaa tehdä koe.
+    Huom! Älä kuitenkaan aloita kokeen tekemistä ennenkuin olet kerrannut osat 1 ja 2, ja olet varma, että sinulla on aikaa tehdä koe. Konekoe tulee tehdä ennen neljännen osan aloittamista.
   </p>
   
 
@@ -1080,13 +1080,12 @@ arvo: 100
   Metodi voi palauttaa arvon. Tähän mennessä näkemissämme esimerkeissä ja tehtävissä luomamme metodit eivät palauttaneet mitään. Tämä on merkitty kirjoittamalla metodin määrittelyyn avainsana <em>void</em>.
 </p>
 
-<pre class="sh_java">
-public class Ovi {
+<pre class="sh_java code-highlight"><code>public class Ovi {
     public void koputa() {
     ...
     }
 }
-</pre>
+</code></pre>
 
 <p>
   Avainsana <strong>void</strong> tarkoittaa että metodi ei palauta arvoa.
@@ -1096,41 +1095,38 @@ public class Ovi {
   Jos haluamme, että metodi palauttaa arvon, tulee avainsanan <code>void</code> paikalle asettaa palautettavan muuttujan tyyppi. Seuraavassa esimerkissä näkyvälle luokalle Opettaja on määritelty metodi <code>arvostele</code>, joka palauttaa aina kokonaislukutyyppisen (<code>int</code>) muuttujan (tässä arvo 10). Arvon palauttaminen tapahtuu aina komennolla <strong>return</strong>:
 </p>
 
-<pre class="sh_java">
-public class Opettaja {
+<pre class="sh_java code-highlight"><code>public class Opettaja {
     public int arvostele() {
         return 10;
     }
 }
-</pre>
+</code></pre>
 
 <p>
   Ylläoleva metodi siis palauttaa sitä kutsuttaessa <code>int</code>-tyyppisen arvon <code>10</code>. Jotta metodin palauttamaa arvoa voisi käyttää, tulee se ottaa talteen muuttujaan. Tämä tapahtuu samalla tavalla kuin normaali muuttujan arvon asetus, eli yhtäsuuruusmerkillä:
 </p>
 
-<pre class="sh_java">
-public static void main(String[] args) {
+<pre class="sh_java code-highlight"><code>public static void main(String[] args) {
     Opettaja opettaja = new Opettaja();
 
     int arvostelu = opettaja.arvostele();
 
     System.out.println("Arvosanaksi tuli " + arvostelu);
 }
-</pre>
+</code></pre>
 
 <p>
   Metodin paluuarvo sijoitetaan <code>int</code>-tyyppiseen muuttujaan aivan kuin mikä tahansa muukin int-arvo. Paluuarvo voi toimia myös osana mitä tahansa lauseketta:
 </p>
 
-<pre class="sh_java">
-public static void main(String[] args) {
+<pre class="sh_java code-highlight"><code>public static void main(String[] args) {
     Opettaja opettaja = new Opettaja();
 
     double keskiarvo = (opettaja.arvostele() + opettaja.arvostele()) / 2.0;
 
     System.out.println("Arvostelujen keskiarvo " + keskiarvo);
 }
-</pre>
+</code></pre>
 
 <p>
   Kaikki tähän mennessä näkemämme muuttujatyypit voidaan myös palauttaa metodista. Yhteenveto:
@@ -1138,32 +1134,32 @@ public static void main(String[] args) {
 
 <ul>
   <li>Metodilla, joka ei palauta mitään, on <code>void</code>-määre palautettavan muuttujan tyyppinä.
-    <pre class="sh_java">
-public void metodiJokaEiPalautaMitaan() {
+<pre class="sh_java code-highlight"><code>public void metodiJokaEiPalautaMitaan() {
     // metodin runko
-}</pre>
-  </li>
+}
+</code></pre>
+</li>
 
   <li>Metodilla, joka palauttaa kokonaislukutyyppisen muuttujan, on <code>int</code>-määre palautettavan muuttujan tyyppinä.
-    <pre class="sh_java">
-public int metodiJokaPalauttaaKokonaisLuvun() {
+<pre class="sh_java code-highlight"><code>public int metodiJokaPalauttaaKokonaisLuvun() {
     // metodin runko, tarvitsee return-komennon
-}</pre>
-  </li>
+}
+</code></pre>
+</li>
 
 
   <li>Metodilla, joka palauttaa merkkijonotyyppisen muuttujan, on <code>String</code>-määre palautettavan muuttujan tyyppinä.
-    <pre class="sh_java">
-public String metodiJokaPalauttaaTekstin() {
+<pre class="sh_java code-highlight"><code>public String metodiJokaPalauttaaTekstin() {
     // metodin runko, tarvitsee return-komennon
-}</pre>
-  </li>
+}
+</code></pre>
+</li>
 
   <li>Metodilla, joka palauttaa liukulukutyyppisen muuttujan, on <code>double</code>-määre palautettavan muuttujan tyyppinä.
-    <pre class="sh_java">
-public double metodiJokaPalauttaaLiukuluvun() {
+<pre class="sh_java code-highlight"><code>public double metodiJokaPalauttaaLiukuluvun() {
     // metodin runko, tarvitsee return-komennon
-}</pre>
+}
+</code></pre>
   </li>
 </ul>
 
