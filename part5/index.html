@@ -1724,7 +1724,7 @@ double keskiarvo =
                // taulukon indeksissä 2 on kaisaniemen pyöräilijätilastot
                // varmistetaan, että otamme huomioon vain ne rivit, joissa
                // kaisaniemeen liittyen dataa
-               .filter(taulukko -&gt; taulukko[2].isEmpty())
+               .filter(taulukko -&gt; !taulukko[2].isEmpty())
                // muunnetaan kaisaniemen pyöräilijöiden lukumäärä
                // kokonaisluvuksi, ja tehdään virrasta lukuvirta
                .mapToInt(taulukko -&gt; Integer.parseInt(taulukko[2]))
@@ -1973,7 +1973,7 @@ kolmas
 
 // on sama kuin
 .map(luku -&gt; {
-    return luku * 5;
+    return luku * 2;
 })
 </code></pre>
 
@@ -2556,7 +2556,7 @@ Korkein lukutaito on maassa: ???
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-    <script src="/javascripts/scripts-aab75a59.js"></script>
+    <script src="/javascripts/scripts-70c74d5e.js"></script>
 
     <script src="https://use.fontawesome.com/ed2f73836b.js"></script>
 
