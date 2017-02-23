@@ -66,6 +66,10 @@
   <a class="nav-link" onclick="ga('send', 'event', 'navigation_topic_link', 'click', 'part6.html')" href="/part6/">Osa 6</a>
 </li>
 
+    <li class="nav-item ">
+  <a class="nav-link" onclick="ga('send', 'event', 'navigation_topic_link', 'click', 'part7.html')" href="/part7/">Osa 7</a>
+</li>
+
   </ul>
 
   <div class="float-xs-right navbar__buttons">
@@ -1703,7 +1707,7 @@ ArrayList&lt;String[]&gt; rajatut =
                .collect(Collectors.toCollection(ArrayList::new));
 
 double keskiarvo = rajatut.stream()
-                          .filter(taulukko -&gt; taulukko[2].isEmpty())
+                          .filter(taulukko -&gt; !taulukko[2].isEmpty())
                           .mapToInt(taulukko -&gt; Integer.parseInt(taulukko[2]))
                           .average()
                           .getAsDouble();
@@ -2570,7 +2574,7 @@ Korkein lukutaito on maassa: ???
       window.SD_SHOW_SURVEY = ['part6', 'part7'].indexOf(window.location.pathname.replace(/\//g,'')) >= 0;
     </script>
 
-    <script src="/javascripts/scripts-78518ad3.js"></script>
+    <script src="/javascripts/scripts-e6b39253.js"></script>
 
     <script src="https://use.fontawesome.com/ed2f73836b.js"></script>
 
