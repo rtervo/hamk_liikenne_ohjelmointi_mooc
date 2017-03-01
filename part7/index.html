@@ -133,7 +133,7 @@
   <p>
     Ohjeet kolmanteen konekokeeseen löytyvät tämän osan lopusta.
   </p>
-  
+
 
   </div>
 </div>
@@ -145,7 +145,7 @@
 
   <div class="hint__body">
     
-  
+
   <p>
     Kurssiin kuuluu kyselyitä, joiden tavoitteena on parantaa kurssia. Vastaa kyselyyn osoitteessa <a href="https://elomake.helsinki.fi/lomakkeet/78143/lomake.html"  target="_blank">https://elomake.helsinki.fi/lomakkeet/78143/lomake.html</a>.
   </p>
@@ -153,7 +153,7 @@
   <p>
     Käy vastaamassa ensin kyselyyn ja ruksaa sen jälkeen allaoleva tekstikenttä. Jos allaolevan tekstikentän ruksaaminen ei onnistu, varmista että olet kirjautunut tälle sivulle. Kirjautuminen onnistuu sivun oikeasta ylälaidasta.
   </p>
-  
+
   <div class="quiznator-plugin" data-quiz-id="58ae1066ad2afb0004f42931"></div>
 
 
@@ -214,7 +214,7 @@ int luku = 10;
 // evaluoidaan seuraavan kerran. Tämä tapahtuu aina lohkon
 // suorituksen jälkeen.
 while (luku &gt; 0) {
-    // tulostetaan muuttujassa luku oleva arvo sekä rivinvaihto  
+    // tulostetaan muuttujassa luku oleva arvo sekä rivinvaihto
     System.out.println(luku);
     // vähennetään yksi luku-muuttujan arvosta
     luku--; // sama kuin luku = luku - 1;
@@ -226,7 +226,7 @@ while (luku &gt; 0) {
 </p>
 
 <p>
-  Edellä käytetty ohjelmoinnin opetteluun tarkoitettu kommentointityyli on kuitenkin ohjelmistokehitykseen kelpaamaton. Ohjelmistoja rakennettaessa <strong>lähdekoodin tulee kommentoida itse itsensä</strong>. Tällöin ohjelman toiminnallisuus tulee ilmi luokkien, metodien ja muuttujien nimistä. 
+  Edellä käytetty ohjelmoinnin opetteluun tarkoitettu kommentointityyli on kuitenkin ohjelmistokehitykseen kelpaamaton. Ohjelmistoja rakennettaessa <strong>lähdekoodin tulee kommentoida itse itsensä</strong>. Tällöin ohjelman toiminnallisuus tulee ilmi luokkien, metodien ja muuttujien nimistä.
 </p>
 
 <p>
@@ -260,7 +260,7 @@ while (luku &gt; 0) {
 </p>
 
 <p>
-  Tutustu ohjelmaan ja yritä selvittää mitä ohjelma tekee ennen materiaalissa etenemistä. Alla olevan ohjelman suorituksen selvittämisessä kannattaa käyttää esimerkiksi kynää ja paperia. Kun käytössäsi on kynä ja paperi, aloita ohjelmakoodin läpi käyminen rivi riviltä kuin olisit tietokone. Kirjaa jokaisen rivin jälkeen ylös ohjelman käyttämissä muuttujissa tapahtuneet muutokset. 
+  Tutustu ohjelmaan ja yritä selvittää mitä ohjelma tekee ennen materiaalissa etenemistä. Alla olevan ohjelman suorituksen selvittämisessä kannattaa käyttää esimerkiksi kynää ja paperia. Kun käytössäsi on kynä ja paperi, aloita ohjelmakoodin läpi käyminen rivi riviltä kuin olisit tietokone. Kirjaa jokaisen rivin jälkeen ylös ohjelman käyttämissä muuttujissa tapahtuneet muutokset.
 </p>
 
 <pre class="sh_java code-highlight"><code>int[] t = {12, 14, 18, 40, 41, 42, 47, 52, 59};
@@ -306,7 +306,7 @@ System.out.println("-1");
 </code></pre>
 
 <p>
-  Lähdekoodi, missä muuttujien nimet on selkeitä, on helpommin ymmärrettävää kuin lähdekoodi, missä muuttujien nimet eivät kuvaa niiden tarkoitusta. Haluamme ohjelmasta kuitenkin version, joka on nopeasti ymmärrettävissä. Luodaan siitä metodi ja nimetään metodi sopivasti.  
+  Lähdekoodi, missä muuttujien nimet on selkeitä, on helpommin ymmärrettävää kuin lähdekoodi, missä muuttujien nimet eivät kuvaa niiden tarkoitusta. Haluamme ohjelmasta kuitenkin version, joka on nopeasti ymmärrettävissä. Luodaan siitä metodi ja nimetään metodi sopivasti.
 </p>
 
 <pre class="sh_java code-highlight"><code>public int binaariHaku(int[] taulukko, int haettava) {
@@ -332,7 +332,7 @@ System.out.println("-1");
 </p>
 
 <p>
-  Korjataan tilanne kommentilla. Yllä esitetyn binäärihakualgoritmin toiminnan ehtona on se, että taulukko on järjestyksessä pienimmästä suurimpaan. Jos etsittävä luku löytyy, algoritmi palauttaa luvun indeksin. Jos lukua taas ei löydy, algoritmi palauttaa luvun -1. 
+  Korjataan tilanne kommentilla. Yllä esitetyn binäärihakualgoritmin toiminnan ehtona on se, että taulukko on järjestyksessä pienimmästä suurimpaan. Jos etsittävä luku löytyy, algoritmi palauttaa luvun indeksin. Jos lukua taas ei löydy, algoritmi palauttaa luvun -1.
 </p>
 
 <p>
@@ -343,9 +343,9 @@ System.out.println("-1");
   Binäärihaku etsii parametrina annetusta taulukosta parametrina annettua lukua.
   Jos etsittävä luku löytyy, metodi palauttaa luvun indeksin taulukossa. Jos
   etsittävää lukua ei löydy, metodi palauttaa arvon -1. Metodi olettaa, että
-  taulukko on järjestetty pienimmästä arvosta suurimpaan.   
+  taulukko on järjestetty pienimmästä arvosta suurimpaan.
 */
-  
+
 public int binaariHaku(int[] taulukko, int haettava) {
     int alaraja = 0;
     int ylaraja = taulukko.length - 1;
@@ -395,7 +395,7 @@ public int binaariHaku(int[] taulukko, int haettava) {
 </p>
 
 <p>
-  Ohjelmoijan tulee pystyä tarkastelemaan ohjelmaansa eri näkökulmista ilman, että muut ohjelman osa-alueet vievät keskittymistä. Käyttöliittymään tulee voida keskittyä ilman, että ohjelmoijan tulee keskittyä sovelluksen ydinlogiikkaan. Vastaavasti ohjelmassa ja ongelma-alueessa esiintyviin käsitteisiin tulee voida keskittyä ilman, että ohjelmoijan tarvitsee välittää käyttöliittymästä. Vastaavasti ohjelmassa käytettävien algoritmien tehokkuus on oma "huolenaihe", johon ohjelmoijan tulee voida keskittyä ilman huolta muista osa-alueista. 
+  Ohjelmoijan tulee pystyä tarkastelemaan ohjelmaansa eri näkökulmista ilman, että muut ohjelman osa-alueet vievät keskittymistä. Käyttöliittymään tulee voida keskittyä ilman, että ohjelmoijan tulee keskittyä sovelluksen ydinlogiikkaan. Vastaavasti ohjelmassa ja ongelma-alueessa esiintyviin käsitteisiin tulee voida keskittyä ilman, että ohjelmoijan tarvitsee välittää käyttöliittymästä. Vastaavasti ohjelmassa käytettävien algoritmien tehokkuus on oma "huolenaihe", johon ohjelmoijan tulee voida keskittyä ilman huolta muista osa-alueista.
 </p>
 
 <p>
@@ -444,7 +444,7 @@ public int binaariHaku(int[] taulukko, int haettava) {
   <p>
     Yleisesti ottaen voidaan todeta, että hyvin harva ohjelma kirjoitetaan vain kerran. Tätä ajatusta jatkaen on hyvä pyrkiä tilanteeseen, missä ohjelman käyttäjä pääsee kokeilemaan sitä mahdollisimman nopeasti -- tällöin muutostoiveiden kerääminen myös alkaa nopeasti. Ohjelmistoja tehdessä onkin hyvä usein luoda ensin <a href="https://en.wikipedia.org/wiki/Proof_of_concept" target="_blank">Proof of Concept</a>-sovellus, jolla voidaan kokeilla idean toimivuutta. Jos idea on hyvä, sitä jatkokehitetään -- samalla myös ohjelma ja kehittyy.
   </p>
-  
+
 
   </div>
 </div>
@@ -452,7 +452,7 @@ public int binaariHaku(int[] taulukko, int haettava) {
 
 
 <h1 class="material-heading">
-    Ongelmasta kokonaisuuteen ja takaisin osiin 
+    Ongelmasta kokonaisuuteen ja takaisin osiin
 
 </h1>
 
@@ -524,11 +524,11 @@ Annoit saman sanan uudestaan!
         while (true) {
             System.out.print("Anna sana: ");
             String sana = lukija.nextLine();
-  
+
             if (<em>pitää lopettaa</em>) {
                 break;
             }
-  
+
         }
 
         System.out.println("Annoit saman sanan uudestaan!");
@@ -553,11 +553,11 @@ Annoit saman sanan uudestaan!
         while (true) {
             System.out.print("Anna sana: ");
             String sana = lukija.nextLine();
-  
+
             if (onJoSyotetty(sana)) {
                 break;
             }
-  
+
         }
 
         System.out.println("Annoit saman sanan uudestaan!");
@@ -644,7 +644,7 @@ int sanojaSyotetty = 0;
         this.lukija = lukija;
         this.aiemmatSanat = new String[1000];
         this.sanojaSyotetty = 0;
-    } 
+    }
 
     public void kaynnista() {
 
@@ -659,7 +659,7 @@ int sanojaSyotetty = 0;
             // lisätään uusi sana aiempien sanojen taulukkoon
             aiemmatSanat[sanojaSyotetty] = sana;
             sanojaSyotetty++;
-  
+
         }
 
         System.out.println("Annoit saman sanan uudestaan!");
@@ -672,7 +672,7 @@ int sanojaSyotetty = 0;
 
         return false;
     }
-}  
+}
 </code></pre>
 
 <p>
@@ -737,7 +737,7 @@ Annoit saman sanan uudestaan!
         this.lukija = lukija;
         this.aiemmatSanat = new String[1000];
         this.sanojaSyotetty = 0;
-    } 
+    }
 
     public void kaynnista() {
 
@@ -752,7 +752,7 @@ Annoit saman sanan uudestaan!
             // lisätään uusi sana aiempien sanojen taulukkoon
             aiemmatSanat[sanojaSyotetty] = sana;
             sanojaSyotetty++;
-  
+
         }
 
         System.out.println("Annoit saman sanan uudestaan!");
@@ -767,7 +767,7 @@ Annoit saman sanan uudestaan!
 
         return false;
     }
-}  
+}
 </code></pre>
 
 
@@ -921,7 +921,7 @@ System.out.println("Annoit saman sanan uudestaan!");
     public Kayttoliittyma(Scanner lukija, Sanajoukko sanajoukko) {
         this.lukija = lukija;
         this.sanajoukko = sanajoukko;
-    } 
+    }
 
     public void kaynnista() {
 
@@ -938,7 +938,7 @@ System.out.println("Annoit saman sanan uudestaan!");
 
         System.out.println("Annoit saman sanan uudestaan!");
     }
-}  
+}
 </code></pre>
 
 <p>
@@ -949,7 +949,7 @@ System.out.println("Annoit saman sanan uudestaan!");
 <pre class="sh_java code-highlight"><code>public static void main(String[] args) {
     Scanner lukija = new Scanner(System.in);
     Sanajoukko joukko = new Sanajoukko();
-  
+
     Kayttoliittyma kayttoliittyma = new Kayttoliittyma(lukija, joukko);
     kayttoliittyma.kaynnista();
 }</code></pre>
@@ -989,7 +989,7 @@ public class Sanajoukko {
 </p>
 
 <p>
-  Oleellista on tässä se, että Sanajoukko-luokkaan tehdyt sisäiset muutokset eivät vaikuta luokkaan Käyttöliittymä. Kun vaihdoimme taulukon listaan, käyttöliittymä ei muutu millään tavalla. Tämä johtuu siitä, että käyttöliittymä käyttää sanajoukkoa sen tarjoamien metodien -- eli julkisten rajapintojen -- kautta. 
+  Oleellista on tässä se, että Sanajoukko-luokkaan tehdyt sisäiset muutokset eivät vaikuta luokkaan Käyttöliittymä. Kun vaihdoimme taulukon listaan, käyttöliittymä ei muutu millään tavalla. Tämä johtuu siitä, että käyttöliittymä käyttää sanajoukkoa sen tarjoamien metodien -- eli julkisten rajapintojen -- kautta.
 </p>
 
 <h2 class="material-heading">
@@ -1050,7 +1050,7 @@ public class Sanajoukko {
                 return false;
             }
         }
-    
+
         return true;
     }
 }
@@ -1059,7 +1059,7 @@ public class Sanajoukko {
 <p>
   Metodissa <code>palindromeja</code> käytetään sekä apumetodia <code>onPalindromi</code> että virran filter-metodia. Virran <code>count</code>-metodi palauttaa <code>long</code>-tyyppisen kokonaisluvun, joka tulee muuntaa int-tyyppiseksi ennen sen palautusta metodista.
 </p>
-  
+
 
 <h2 class="material-heading">
     Uusiokäyttö
@@ -1126,9 +1126,9 @@ public class Sanajoukko {
     <div class="exercise__body">
       
   <p>
-    Tässä tehtävässä toteutetaan ohjelma kurssipistetilastojen tulostamiseen. Ohjelmalle syötetään pisteitä (kokonaislukuja nollasta sataan), ja ohjelma tulostaa niiden perusteella arvosanoihin liittyviä tilastoja. Syötteiden lukeminen lopetetaan kun käyttäjä syöttää luvun -1. Lukuja, jotka eivät ole välillä [0-100] ei tule ottaa huomioon tilastojen laskemisessa. 
+    Tässä tehtävässä toteutetaan ohjelma kurssipistetilastojen tulostamiseen. Ohjelmalle syötetään pisteitä (kokonaislukuja nollasta sataan), ja ohjelma tulostaa niiden perusteella arvosanoihin liittyviä tilastoja. Syötteiden lukeminen lopetetaan kun käyttäjä syöttää luvun -1. Lukuja, jotka eivät ole välillä [0-100] ei tule ottaa huomioon tilastojen laskemisessa.
   </p>
-  
+
   <h2>Pisteiden keskiarvot</h2>
 
   <p>
@@ -1151,7 +1151,7 @@ Pisteiden keskiarvo (kaikki): 54.0
 Pisteiden keskiarvo (hyväksytyt): 68.0
 </pre>
 
-<pre class="sample-output">Syötä yhteispisteet, -1 lopettaa: 
+<pre class="sample-output">Syötä yhteispisteet, -1 lopettaa:
 <font color="red">50</font>
 <font color="red">51</font>
 <font color="red">52</font>
@@ -1160,14 +1160,14 @@ Pisteiden keskiarvo (kaikki): 51.0
 Pisteiden keskiarvo (hyväksytyt): 51.5
 </pre>
 
-  
+
   <h2>Hyväksyttyjen prosenttiosuus</h2>
 
   <p>
     Täydennä edellisessä osassa toteuttamaasi ohjelmaa siten, että ohjelma tulostaa myös hyväksymisprosentin. Hyväksymisprosentti lasketaan kaavalla <em>100 * hyväksytyt / osallistujat</em>.
   </p>
 
-<pre class="sample-output">Syötä yhteispisteet, -1 lopettaa: 
+<pre class="sample-output">Syötä yhteispisteet, -1 lopettaa:
 <font color="red">50</font>
 <font color="red">51</font>
 <font color="red">52</font>
@@ -1177,7 +1177,7 @@ Pisteiden keskiarvo (hyväksytyt): 51.5
 Hyväksymisprosentti: 66.66666666666667
 </pre>
 
-<pre class="sample-output">Syötä yhteispisteet, -1 lopettaa: 
+<pre class="sample-output">Syötä yhteispisteet, -1 lopettaa:
 <font color="red">102</font>
 <font color="red">-4</font>
 <font color="red">33</font>
@@ -1196,7 +1196,7 @@ Hyväksymisprosentti: 50.0
   <p>
     Täydennä ohjelmaa siten, että ohjelma tulostaa myös arvosanajakauman. Arvosananajakauma muodostetaan seuraavasti.
   </p>
-  
+
   <table class="table">
     <tbody>
       <tr><th>pistemäärä</th><th>arvosana</th></tr>
@@ -1208,8 +1208,8 @@ Hyväksymisprosentti: 50.0
       <tr><td>&gt;= 91</td><td>5</td></tr>
     </tbody>
   </table>
-  
-  
+
+
   <p>
     Jokainen koepistemäärä muutetaan arvosanaksi yllä olevan taulukon perusteella. Jos syötetty pistemäärä ei ole välillä [0-100], jätetään se huomiotta.
   </p>
@@ -1218,7 +1218,7 @@ Hyväksymisprosentti: 50.0
     Arvosanajakauma tulostetaan tähtinä. Esim jos arvosanaan 5 oikeuttavia koepistemääriä on 1 kappale, tulostuu rivi <em>5: *</em>. Jos johonkin arvosanaan oikeuttavia pistemääriä ei ole, ei yhtään tähteä tulostu, alla olevassa esimerkissä näin on mm. nelosten kohdalla.</em>
   </p>
 
-<pre class="sample-output">Syötä yhteispisteet, -1 lopettaa: 
+<pre class="sample-output">Syötä yhteispisteet, -1 lopettaa:
 <font color="red">102</font>
 <font color="red">-2</font>
 <font color="red">1</font>
@@ -1231,10 +1231,10 @@ Pisteiden keskiarvo (hyväksytyt): 82.5
 Hyväksymisprosentti: 50.0
 Arvosanajakauma:
 5: *
-4: 
-3: 
+4:
+3:
 2: *
-1: 
+1:
 0: **
 </pre>
 
@@ -1294,7 +1294,7 @@ Woodhead Publishing
 Cheese Problems Solved, Woodhead Publishing, 2007
 </pre>
 
-  
+
   <h2>Kirjasto</h2>
 
   <p>
@@ -1388,7 +1388,7 @@ Battle Axes, Tom A. Hawk, 1851
     <div class="exercise__body">
       
   <p><b>Tehtävä vastaa kolmea yksiosaista tehtävää. </b></p>
-  
+
   <p>
     Tässä tehtävässä suunnittelet ja toteutat tietokannan lintubongareille. Tietokanta sisältää lintuja, joista jokaisella on nimi (merkkijono) ja latinankielinen nimi (merkkijono). Tämän lisäksi tietokanta laskee kunkin linnun havaintokertoja.
   </p>
@@ -1447,7 +1447,7 @@ Haukka (Dorkus Dorkus): 2 havaintoa
 </h1>
 
 <p>
-  Ohjelman testaaminen käsin on usein työlästä. Syötteen antaminen on kuitenkin mahdollista automatisoida esimerkiksi syöttämällä Scanner-oliolle luettava merkkijono. Alla on annettu esimerkki siitä, miten edellisessä luvussa luotua ohjelmaa voi testata automaattisesti. Ohjelmassa syötetään ensin viisi merkkijonoa, jonka jälkeen syötetään aiemmin nähty merkkijono. Tämän jälkeen yritetään syöttää vielä uusi merkkijono. Merkkijonoa "kuusi" ei pitäisi esiintyä sanajoukossa. 
+  Ohjelman testaaminen käsin on usein työlästä. Syötteen antaminen on kuitenkin mahdollista automatisoida esimerkiksi syöttämällä Scanner-oliolle luettava merkkijono. Alla on annettu esimerkki siitä, miten edellisessä luvussa luotua ohjelmaa voi testata automaattisesti. Ohjelmassa syötetään ensin viisi merkkijonoa, jonka jälkeen syötetään aiemmin nähty merkkijono. Tämän jälkeen yritetään syöttää vielä uusi merkkijono. Merkkijonoa "kuusi" ei pitäisi esiintyä sanajoukossa.
 </p>
 
 <p>
@@ -1461,7 +1461,7 @@ Haukka (Dorkus Dorkus): 2 havaintoa
 
 Scanner lukija = new Scanner(syote);
 Sanajoukko joukko = new Sanajoukko();
-  
+
 Kayttoliittyma kayttoliittyma = new Kayttoliittyma(lukija, joukko);
 kayttoliittyma.kaynnista();
 
@@ -1514,8 +1514,10 @@ Sanoistasi 0 oli palindromeja
     Ohjelmassa on yritetty luoda sovellus, joka kysyy käyttäjältä merkkijonoa ja lukua. Sovelluksen pitäisi toimia esimerkiksi seuraavasti:
   </p>
 
-<pre class="sample-output">Sana: <font color="red">testi</font>
-Luku: <font color="red">3</font>
+<pre class="sample-output">Sana:
+<font color="red">testi</font>
+Luku:
+<font color="red">3</font>
 t
  e
   s
@@ -1527,8 +1529,10 @@ t
     Esimerkki 2:
   </p>
 
-<pre class="sample-output">Sana: <font color="red">esim</font>
-Luku: <font color="red">2</font>
+<pre class="sample-output">Sana:
+<font color="red">esim</font>
+Luku:
+<font color="red">2</font>
 e
  s
 i
@@ -1536,7 +1540,7 @@ i
 </pre>
 
   <p>
-    Tällä hetkellä ohjelma ei kuitenkaan toimi halutusti. Ota selvää miksi ja korjaa ohjelma. 
+    Tällä hetkellä ohjelma ei kuitenkaan toimi halutusti. Ota selvää miksi ja korjaa ohjelma.
   </p>
 
 
@@ -1568,17 +1572,17 @@ i
 
   <div class="collapse">
     <div class="exercise__body">
-        
+      
   <p>
     Tässä tehtävässä tehdään sovellus tiedoston rivi- ja merkkimäärän laskemiseen.
   </p>
-  
+
   <h2>Rivien laskeminen</h2>
 
   <p>
     Tee luokka <code>Analyysi</code>, jolla on konstruktori <code>public Analyysi(String tiedosto)</code>. Toteuta luokalle metodi <code>public int rivimaara()</code>, joka palauttaa konstruktorille annetun tiedoston rivimäärän. Metodi ei saa olla "kertakäyttöinen", eli sen pitää tuottaa oikea tulos myös usealla peräkkäisellä kutsulla.
   </p>
-  
+
   <h2>Merkkien laskeminen</h2>
 
   <p>
@@ -1612,11 +1616,11 @@ Analyysi analyysi = new Analyysi(tiedosto);
 System.out.println("Rivejä: " + analyysi.rivimaara());
 System.out.println("Merkkejä: " + analyysi.merkkeja());
 </code></pre>
-  
+
 <pre class="sample-output">Rivejä: 3
 Merkkejä: 67
 </pre>
-  
+
 
     </div>
   </div>
@@ -1650,7 +1654,7 @@ Merkkejä: 67
   <h2>Sanojen määrä</h2>
 
   <p>
-    Luo Sanatutkimus-luokalle konstruktori <code>public Sanatutkimus(String tiedosto)</code> joka luo uuden Sanatutkimus-olion, joka tutkii parametrina annettavaa tiedostoa. 
+    Luo Sanatutkimus-luokalle konstruktori <code>public Sanatutkimus(String tiedosto)</code> joka luo uuden Sanatutkimus-olion, joka tutkii parametrina annettavaa tiedostoa.
   </p>
 
   <p>
@@ -1689,7 +1693,7 @@ Merkkejä: 67
 
 
 <p>
-  Tiedostoon kirjoittaminen on melko suoraviivaista. Kuten lukemisessa, tarvitsemme tiedon tiedoston polusta eli minne tiedosto luodaan tai missä olevaan tiedostoon kirjoitetaan. Tämän lisäksi tarvitsemme myös kirjoitettavan tiedon, joka esitetään listana merkkijonoja. Kirjoitettaessa päätetään myös tiedoston käyttämä muoto, tyypillisesti <code>StandardCharsets.UTF_8</code>. Aivan kuten lukeminen, myös kirjoittaminen voi aiheuttaa virhetilanteen, johon tulee varautua. Tämä tehdään <code>try { ... } catch (Exception e) { ... }</code> -rakenteella.  
+  Tiedostoon kirjoittaminen on melko suoraviivaista. Kuten lukemisessa, tarvitsemme tiedon tiedoston polusta eli minne tiedosto luodaan tai missä olevaan tiedostoon kirjoitetaan. Tämän lisäksi tarvitsemme myös kirjoitettavan tiedon, joka esitetään listana merkkijonoja. Kirjoitettaessa päätetään myös tiedoston käyttämä muoto, tyypillisesti <code>StandardCharsets.UTF_8</code>. Aivan kuten lukeminen, myös kirjoittaminen voi aiheuttaa virhetilanteen, johon tulee varautua. Tämä tehdään <code>try { ... } catch (Exception e) { ... }</code> -rakenteella.
 </p>
 
 <p>
@@ -1737,7 +1741,7 @@ try {
 </code></pre>
 
 <p>
-  Tiedoston lukemisen ja tiedostoon kirjoittamisen voi eriyttää omaksi luokakseen. Alla tiedostoon kirjoittamiseen löytyy sekä rivin että listan kirjoittamiseen liittyvät metodit. Allaolevat esimerkit näyttävät myös miten luokan sisällä olevat metodit voivat kutsua muita luokan sisällä olevia metodeja -- jos metodit ovat saman nimisiä, kutsuttava metodi päätellään metodin parametreista ja niiden tyypeistä. 
+  Tiedoston lukemisen ja tiedostoon kirjoittamisen voi eriyttää omaksi luokakseen. Alla tiedostoon kirjoittamiseen löytyy sekä rivin että listan kirjoittamiseen liittyvät metodit. Allaolevat esimerkit näyttävät myös miten luokan sisällä olevat metodit voivat kutsua muita luokan sisällä olevia metodeja -- jos metodit ovat saman nimisiä, kutsuttava metodi päätellään metodin parametreista ja niiden tyypeistä.
 </p>
 
 <pre class="sh_java code-highlight"><code>import java.io.IOException;
@@ -1763,7 +1767,7 @@ public class Tiedostonkasittelija {
     public void kirjoitaTiedostoon(String tiedosto, String rivi) {
         kirjoitaTiedostoon(tiedosto, merkkijonoListana(rivi));
     }
-  
+
     public void kirjoitaTiedostoon(String tiedosto, ArrayList&lt;String&gt; rivit) {
         try {
             Files.write(Paths.get(tiedosto), rivit, StandardCharsets.UTF_8);
@@ -1775,7 +1779,7 @@ public class Tiedostonkasittelija {
     public void kirjoitaTiedostoon(String tiedosto, String rivi) {
         lisaaTiedostoon(tiedosto, merkkijonoListana(rivi));
     }
-  
+
     public void lisaaTiedostoon(String tiedosto, ArrayList&lt;String&gt; rivit) {
         try {
             Files.write(Paths.get(tiedosto), rivit,
@@ -1790,7 +1794,7 @@ public class Tiedostonkasittelija {
         rivit.add(rivi);
 
         return rivit;
-    } 
+    }
 }
 </code></pre>
 
@@ -1863,13 +1867,13 @@ Files.lines(Paths.get(tiedosto), StandardCharsets.UTF_8)
   <div class="collapse">
     <div class="exercise__body">
       
-  
+
   <p>
     Tässä tehtävässä harjoitellaan lahjojen pakkaamista. Tehdään luokat <code>Lahja</code> ja <code>Pakkaus</code>. Lahjalla on nimi ja paino, ja Pakkaus sisältää lahjoja.
   </p>
 
   <h2>Lahja-luokka</h2>
-  
+
   <p>
     Tee luokka <code>Lahja</code>, josta muodostetut oliot kuvaavat erilaisia lahjoja. Tallennettavat tiedot ovat tavaran nimi ja paino (kg).
   </p>
@@ -1877,14 +1881,14 @@ Files.lines(Paths.get(tiedosto), StandardCharsets.UTF_8)
   <p>
     Lisää luokkaan seuraavat metodit:
   </p>
-  
+
   <ul>
     <li>Konstruktori, jolle annetaan parametrina lahjan nimi ja paino</li>
     <li>Metodi <code>public String getNimi()</code>, joka palauttaa lahjan nimen</li>
     <li>Metodi <code>public int getPaino()</code>, joka palauttaa lahjan painon</li>
     <li>Metodi <code>public String toString()</code>, joka palauttaa merkkijonon muotoa "nimi (paino kg)"</li>
   </ul>
-  
+
   <p>
     Seuraavassa on luokan käyttöesimerkki:
   </p>
@@ -1910,7 +1914,7 @@ Lahjan paino: 2
 Lahja: Aapiskukko (2 kg)</pre>
 
 
-  
+
   <h2>Pakkaus-luokka</h2>
 
   <p>
@@ -1979,7 +1983,7 @@ Lahja: Aapiskukko (2 kg)</pre>
     Tässä tehtäväsarjassa tehdään luokat <code>Tavara</code>, <code>Matkalaukku</code> ja <code>Lastiruuma</code>, joiden avulla harjoitellaan olioita, jotka sisältävät toisia olioita.
   </p>
 
-  
+
   <h2>Tavara-luokka</h2>
 
   <p>
@@ -2088,7 +2092,7 @@ Puhelin: Nokia 3210 (1 kg)</pre>
 2 tavaraa (3 kg)</pre>
 
 
-  
+
   <h2>Kielenhuoltoa</h2>
 
   <p>
@@ -2105,7 +2109,7 @@ Puhelin: Nokia 3210 (1 kg)</pre>
 2 tavaraa (3 kg)</pre>
 
 
-  
+
   <h2>Kaikki tavarat</h2>
 
   <p>
@@ -2154,7 +2158,7 @@ Yhteispaino: 7 kg</pre>
     Muokkaa myös luokkaasi siten, että käytät vain kahta oliomuuttujaa. Toinen sisältää maksimipainon, toinen on lista laukussa olevista tavaroista.
   </p>
 
-  
+
   <h2>Raskain tavara</h2>
 
   <p>
@@ -2189,7 +2193,7 @@ Yhteispaino: 7 kg</pre>
 <pre class="sample-output">Raskain tavara: Tiiliskivi (4 kg)</pre>
 
 
-  
+
   <h2>Lastiruuma-luokka</h2>
 
   <p>
@@ -2243,7 +2247,7 @@ Yhteispaino: 7 kg</pre>
 <pre class="sample-output">2 matkalaukkua (7 kg)</pre>
 
 
-  
+
   <h2>Lastiruuman sisältö</h2>
 
   <p>
@@ -2311,7 +2315,7 @@ tiiliskivi (4 kg)</pre>
   <p>
     Kertaa ennen tätä tehtävää edellisen osan kaksiulotteisiin taulukkoihin liittynyt osa.
   </p>
-  
+
   <p>
     <a href="https://en.wikipedia.org/wiki/Thomas_Schelling" target="_blank">Thomas Schelling</a> on yhdysvaltalainen taloustieteilijä, joka esitti ihmisten eriytymistä selittävän mallin. Malli perustuu ajatukselle, että vaikka ihmiset asetettasiin satunnaisesti asumaan, he muuttavat pois jos he eivät ole tyytyväisiä naapureihinsa.
   </p>
@@ -2344,7 +2348,7 @@ tiiliskivi (4 kg)</pre>
     Simulaatio-ohjelmasta puuttuu muutamia oleellisia toiminnallisuuksia: (1) kartan tyhjennys, (2) tyhjien paikkojen etsiminen, sekä (3) tyytymättömien henkilöiden tunnistaminen. Kannattaa ennen aloitusta tutustua nykyiseen tehtävän koodiin -- ohjelmassa on mukana myös visualisointiin käytettävä komponentti.
   </p>
 
-  
+
   <h2>Kartan tyhjentäminen ja tyhjien paikkojen etsiminen</h2>
 
   <p>
@@ -2406,7 +2410,7 @@ tiiliskivi (4 kg)</pre>
     <div class="exercise__body">
       
   <p>
-    <a href="https://fi.wikipedia.org/wiki/Uno_(korttipeli)" target="_blank">Uno</a> on korttipeli, missä jokaisella pelaajalla on kädessään kortteja. Kortteja pelataan vuorotellen siten, että jokainen pelaaja pelaa aina yhden kortin kerrallaan. Pelin voittaja on se, jonka kädestä loppuu kortit ensimmäisenä kesken.  
+    <a href="https://fi.wikipedia.org/wiki/Uno_(korttipeli)" target="_blank">Uno</a> on korttipeli, missä jokaisella pelaajalla on kädessään kortteja. Kortteja pelataan vuorotellen siten, että jokainen pelaaja pelaa aina yhden kortin kerrallaan. Pelin voittaja on se, jonka kädestä loppuu kortit ensimmäisenä kesken.
   </p>
 
   <p>
@@ -2431,7 +2435,7 @@ tiiliskivi (4 kg)</pre>
   </p>
 
   <hr/>
-  
+
   <p>
     Tekoäly tulee toteuttaa luokkaan <code>Tekoalypelaaja</code>. Luokalle on valmiiksi määriteltynä <em>rajapinta</em> (palaamme tähän myöhemmissä osissa) ja kolme metodia.
   </p>
@@ -2469,7 +2473,7 @@ tiiliskivi (4 kg)</pre>
   <p>
     Kun tehtävän määräaika on ohi, jokaisen palauttamaa (toimivaa) tekoälyä peluutetaan kaikkia muita tekoälyjä vastaan useampaan otteeseen. Parhaille tekoälyille on tiedossa myös palkintoja.
   </p>
-  
+
 
   <hr/>
 
@@ -2487,7 +2491,7 @@ tiiliskivi (4 kg)</pre>
     <li>
       Tai no, ehkä villeistä korteista ei kannata pitää ikuisesti kiinni, koska ne kuitenkin ovat 50 pisteen arvoisia.
     </li>
-    <li>      
+    <li>
       Kun pelaat villin kortin ja valitset värin, voi olla ihan fiksua valita väri, jota sinulla on paljon kädessä.
     </li>
     <li>
@@ -2518,7 +2522,7 @@ tiiliskivi (4 kg)</pre>
       Metodi <code>public String getSuunta()</code> palauttaa pelin tämänhetkisen suunnan. Suunta on joko "Myötäpäivään" eli eteenpäin tai "Vastapäivään" eli taaksepäin.
     </li>
     <li>
-      Metodi <code>public int getOmaIndeksi()</code> palauttaa oman tekoälyn indeksin. Indeksiä käytetään seuraavissa metodeissa. 
+      Metodi <code>public int getOmaIndeksi()</code> palauttaa oman tekoälyn indeksin. Indeksiä käytetään seuraavissa metodeissa.
     </li>
     <li>
       Metodi <code>public int[] getPelaajienPisteet()</code> kertoo tämänhetkisen pistetilanteen kaikille pelaajille.
@@ -2530,13 +2534,13 @@ tiiliskivi (4 kg)</pre>
       Metodi <code>public String[] getPelaajienViimeksiPelaamatVarit()</code> kertoo pelaajien viimeksi pelaamat värit. Alkiossa on arvo null jos pelaaja ei ole vielä pelannut korttia.
     </li>
   </ul>
-    
+
   <p>
     <em>
       Tehtävän alkuperäinen idea: Stephen Davies, UMW
     </em>
   </p>
-  
+
 
 
     </div>
@@ -2545,7 +2549,7 @@ tiiliskivi (4 kg)</pre>
 
 
 <p>
-  Hengähdä hetkeksi ja mieti kurssin alkua. Olet todennäköisesti kehittynyt huimasti. 
+  Hengähdä hetkeksi ja mieti kurssin alkua. Olet todennäköisesti kehittynyt huimasti.
 </p>
 
 <div class="quiznator-plugin" data-quiz-id="58ae10d1ad2afb0004f42935"></div>
@@ -2564,7 +2568,7 @@ tiiliskivi (4 kg)</pre>
       Huom! Jos et vielä vastannut osoitteessa <a href="https://elomake.helsinki.fi/lomakkeet/78143/lomake.html" target="_blank">https://elomake.helsinki.fi/lomakkeet/78143/lomake.html</a> olevaan kyselyyn, tee se nyt.
     </em>
   </p>
-  
+
   <p>
     Jos teet kurssia Ohjelmoinnin perusteet tai aikataulutettua Ohjelmoinnin MOOCia, tässä kohtaa tulee tehdä kurssin kolmas konekoe. Kolmannen konekokeen tekemiseen on kokeen aloitushetkestä 180 minuuttia. Kolmas konekoe vastaa kahtakymmentä kurssipistettä Ohjelmoinnin perusteet -kurssista, ja sen pisteistä tulee saada vähintään puolet, jotta kurssi arvostellaan.
   </p>
@@ -2580,7 +2584,7 @@ tiiliskivi (4 kg)</pre>
   <p>
     Huom! Älä kuitenkaan aloita kokeen tekemistä ennen kuin olet kerrannut edeltävät osat ja olet varma, että sinulla on aikaa tehdä koe. Konekoe tulee tehdä Helsingin yliopiston kurssilla 10.3. klo 14:00 mennessä ja aikataulutetussa Ohjelmoinnin MOOCissa 19.3. mennessä. Koe ja tehtävät julkaistaan osoitteessa https://myexams.herokuapp.com viimeistään 27.2.
   </p>
-  
+
 
   </div>
 </div>
