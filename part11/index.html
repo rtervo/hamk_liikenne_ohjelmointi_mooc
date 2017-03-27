@@ -468,7 +468,7 @@ kirja.rivitJoilleVoimassa(ehto).stream().forEach(rivi -&gt; {
     Tee rajapinnan <code>Predicate</code> toteuttava luokka <code>KaikkiRivit</code>, joka kelpuuttaa jokaisen rivin. Tämä ja muutkin tämän tehtävän luokat tulee toteuttaa pakkaukseen <code>lukija.ehdot</code>.
   </p>
 
-<pre class="sh_java code-highlight"><code>String osoite = "http://www.gutenberg.myebook.bg/2/5/5/2554/2554-8.txt";
+<pre class="sh_java code-highlight"><code>String osoite = "http://www.gutenberg.org/cache/epub/52537/pg52537.txt";
 GutenbergLukija kirja = new GutenbergLukija(osoite);
 
 Predicate&lt;String&gt; ehto = new KaikkiRivit();
