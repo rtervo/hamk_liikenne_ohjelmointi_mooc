@@ -307,7 +307,7 @@ kirjanpito.tulosta();
     }
 
     public void tulosta() {
-	this.tehdytTehtavat.keySet().stream(kayttaja -&gt; {
+	this.tehdytTehtavat.keySet().stream().forEach(kayttaja -&gt; {
 	    System.out.println(kayttaja + ": " + this.tehdytTehtavat.get(kayttaja));
 	});
     }
@@ -2633,7 +2633,7 @@ VOITIT
       window.SD_SHOW_SURVEY = ['part6', 'part7'].indexOf(window.location.pathname.replace(/\//g,'')) >= 0;
     </script>
 
-    <script src="/javascripts/scripts-0978ea1e.js"></script>
+    <script src="/javascripts/scripts-a13a1c5a.js"></script>
 
     <script src="https://use.fontawesome.com/ed2f73836b.js"></script>
 
